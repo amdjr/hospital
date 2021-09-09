@@ -1,9 +1,58 @@
 public class Endereco {
 
-  public String rua;
-  public String numero;
-  public String bairro;
-  public String cidade;
-  public String estado;
-  public String cep;
+  private String rua;
+  private String numero;
+  private String bairro;
+  private String cidade;
+  private String estado;
+  private String cep;
+
+  // Getters
+
+  public String getRua() {
+    return this.rua;
+  }
+
+  public String getNumero() {
+    return this.numero;
+  }
+
+  public String getBairro() {
+    return this.bairro;
+  }
+
+  public String getCidade() {
+    return this.cidade;
+  }
+
+  public String getEstado() {
+    return this.estado;
+  }
+
+  // Setters
+
+  public void setRua(String rua) {
+    this.rua = rua;
+  }
+
+  public void setNumero(String numero) {
+    this.numero = numero;
+  }
+
+  public void setBairro(String bairro) {
+    this.bairro = bairro;
+  }
+
+  public void setCidade(String cidade) {
+    this.cidade = cidade;
+  }
+
+  public void setEstado(String estado) {
+    this.estado = estado;
+  }
+
+  public void setCep(String cep) {
+    this.cep = cep;
+  }
+
 }
