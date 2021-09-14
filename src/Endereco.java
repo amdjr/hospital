@@ -64,9 +64,6 @@ public class Endereco {
     this.cep = cep;
   }
 
-  /**
-   * @return String return the cep
-   */
   public String getCep() {
     return cep;
   }
