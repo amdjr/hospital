@@ -61,7 +61,7 @@ public class Internacao {
 
     private String formatarData(LocalDate data) {
         if (data != null) {
-            var formato = DateTimeFormatter.ofPattern("dd/MM/YYYY");
+            var formato = DateTimeFormatter.ofPattern("dd/MM/yyyy");
             return formato.format(data);
         }
         return "Data não informada!!!";
