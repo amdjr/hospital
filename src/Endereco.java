@@ -71,4 +71,10 @@ public class Endereco {
     return cep;
   }
 
+  @Override
+  public String toString() {
+    return String.format("Logradouro: %s nº %s, bairro %s - %s/%s", this.rua, this.numero, this.bairro, this.cidade,
+        this.cidade, this.estado);
+  }
+
 }

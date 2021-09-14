@@ -49,4 +49,10 @@ public class Paciente {
         this.endereco = endereco;
     }
 
+    @Override
+    public String toString() {
+        return String.format("Nome do paciente: %s\nTelefone: %s\tEndereço: %s", this.nomeCompleto, this.telefone,
+                this.endereco.toString());
+    }
+
 }
