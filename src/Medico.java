@@ -37,7 +37,7 @@ public class Medico {
 
     @Override
     public String toString() {
-        return String.format("CRM:%s \t Nome: %s \t Telefone Contato: %s\t Endereço: %s", this.crm, this.nomeCompleto,
+        return String.format("CRM: %s \t Nome do médico: %s \t Telefone Contato: %s\t %s.", this.crm, this.nomeCompleto,
                 this.telefoneContato, this.endereco.toString());
     }
 

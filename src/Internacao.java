@@ -70,7 +70,7 @@ public class Internacao {
     @Override
     public String toString() {
         return String.format(
-                "Dados do médico:\n%s\nDados do paciente:\n%s\nData da internação: %s\nData da alta: %s\nObservações: \n%s",
+                "Dados do médico:\n%s\nDados do paciente: %s\nData da internação: %s\nData da alta: %s\nObservações: \n%s",
                 this.medico.toString(), this.paciente.toString(), this.formatarData(this.dataInternacao),
                 this.formatarData(this.dataAlta), this.observacoes);
 
